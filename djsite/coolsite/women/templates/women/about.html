@@ -1,0 +1,15 @@
+{% extends 'women/base.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<p>O сайте about.html</p>
+
+
+{% for p1 in page_obj %}
+<p>{{ p1 }}</p>
+{% endfor %}
+
+
+
+
+{% endblock %}
